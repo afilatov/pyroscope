@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	wrapper "github.com/pyroscope-io/pyroscope/pkg/util/hyperloglog"
+	wrapper "github.com/afilatov/pyroscope/pkg/util/hyperloglog"
 	"github.com/spaolacci/murmur3"
 )
 

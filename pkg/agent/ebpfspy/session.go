@@ -10,8 +10,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/pyroscope-io/pyroscope/pkg/convert"
-	"github.com/pyroscope-io/pyroscope/pkg/util/file"
+	"github.com/afilatov/pyroscope/pkg/convert"
+	"github.com/afilatov/pyroscope/pkg/util/file"
 )
 
 type line struct {

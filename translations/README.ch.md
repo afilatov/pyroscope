@@ -1,10 +1,10 @@
 <p align="center"><img alt="Pyroscope" src="https://user-images.githubusercontent.com/662636/105129037-11334180-5a99-11eb-8951-1d4aaaed50de.png" width="500px"/></p>
 
 
-[![Tests Status](https://github.com/pyroscope-io/pyroscope/workflows/Tests/badge.svg)](https://github.com/pyroscope-io/pyroscope/actions?query=workflow%3ATests)
+[![Tests Status](https://github.com/afilatov/pyroscope/workflows/Tests/badge.svg)](https://github.com/afilatov/pyroscope/actions?query=workflow%3ATests)
 [![Apache 2 License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
-[![Latest release](https://img.shields.io/github/release/pyroscope-io/pyroscope.svg)](https://github.com/pyroscope-io/pyroscope/releases)
-[![GoDoc](https://godoc.org/github.com/pyroscope-io/pyroscope?status.svg)](https://godoc.org/github.com/pyroscope-io/pyroscope)
+[![Latest release](https://img.shields.io/github/release/afilatov/pyroscope.svg)](https://github.com/afilatov/pyroscope/releases)
+[![GoDoc](https://godoc.org/github.com/afilatov/pyroscope?status.svg)](https://godoc.org/github.com/afilatov/pyroscope)
 
 <h2>
   <a href="https://pyroscope.io/">網路</a>
@@ -44,7 +44,7 @@ Pyroscope 是個開放源碼的連續側寫網路平台。它能夠幫你：
 
 ```shell
 # install pyroscope
-brew install pyroscope-io/brew/pyroscope
+brew install afilatov/brew/pyroscope
 
 # start pyroscope server:
 pyroscope server

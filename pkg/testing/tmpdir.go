@@ -8,7 +8,7 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/onsi/ginkgo"
-	"github.com/pyroscope-io/pyroscope/pkg/util/bytesize"
+	"github.com/afilatov/pyroscope/pkg/util/bytesize"
 )
 
 func DirStats(path string) (directories int, files int, size bytesize.ByteSize) {

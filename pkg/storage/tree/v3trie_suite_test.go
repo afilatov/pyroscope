@@ -6,7 +6,7 @@ import (
 
 	"testing"
 
-	testing2 "github.com/pyroscope-io/pyroscope/pkg/testing"
+	testing2 "github.com/afilatov/pyroscope/pkg/testing"
 )
 
 func TestTree(t *testing.T) {

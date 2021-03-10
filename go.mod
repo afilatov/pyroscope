@@ -1,4 +1,4 @@
-module github.com/pyroscope-io/pyroscope
+module github.com/afilatov/pyroscope
 
 go 1.14
 

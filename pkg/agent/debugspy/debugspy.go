@@ -5,7 +5,7 @@ package debugspy
 import (
 	"fmt"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/spy"
+	"github.com/afilatov/pyroscope/pkg/agent/spy"
 )
 
 type DebugSpy struct {

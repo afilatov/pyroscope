@@ -4,8 +4,8 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/pyroscope-io/pyroscope/pkg/cli"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
+	"github.com/afilatov/pyroscope/pkg/cli"
+	"github.com/afilatov/pyroscope/pkg/config"
 )
 
 func main() {

@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/convert"
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
-	"github.com/pyroscope-io/pyroscope/pkg/storage/tree"
-	"github.com/pyroscope-io/pyroscope/pkg/util/attime"
+	"github.com/afilatov/pyroscope/pkg/convert"
+	"github.com/afilatov/pyroscope/pkg/storage"
+	"github.com/afilatov/pyroscope/pkg/storage/tree"
+	"github.com/afilatov/pyroscope/pkg/util/attime"
 	"github.com/sirupsen/logrus"
 )
 

@@ -91,7 +91,7 @@ dev:
 
 .PHONY: godoc
 godoc:
-	sleep 5 && open http://localhost:8090/pkg/github.com/pyroscope-io/pyroscope/ &
+	sleep 5 && open http://localhost:8090/pkg/github.com/afilatov/pyroscope/ &
 	godoc -http :8090
 
 .PHONY: go-deps-graph

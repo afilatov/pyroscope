@@ -125,7 +125,7 @@ function Sidebar(props) {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/pyroscope-io/pyroscope"
+          href="https://github.com/afilatov/pyroscope"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>

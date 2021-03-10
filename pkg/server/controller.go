@@ -15,11 +15,11 @@ import (
 	_ "net/http/pprof"
 
 	"github.com/markbates/pkger"
-	"github.com/pyroscope-io/pyroscope/pkg/build"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
-	"github.com/pyroscope-io/pyroscope/pkg/util/atexit"
-	"github.com/pyroscope-io/pyroscope/pkg/util/hyperloglog"
+	"github.com/afilatov/pyroscope/pkg/build"
+	"github.com/afilatov/pyroscope/pkg/config"
+	"github.com/afilatov/pyroscope/pkg/storage"
+	"github.com/afilatov/pyroscope/pkg/util/atexit"
+	"github.com/afilatov/pyroscope/pkg/util/hyperloglog"
 	"github.com/sirupsen/logrus"
 )
 

@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/pyroscope-io/pyroscope/pkg/util/bytesize"
+	"github.com/afilatov/pyroscope/pkg/util/bytesize"
 	"github.com/sirupsen/logrus"
 )
 

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent"
-	"github.com/pyroscope-io/pyroscope/pkg/agent/upstream/direct"
-	"github.com/pyroscope-io/pyroscope/pkg/config"
-	"github.com/pyroscope-io/pyroscope/pkg/storage"
-	"github.com/pyroscope-io/pyroscope/pkg/util/atexit"
+	"github.com/afilatov/pyroscope/pkg/agent"
+	"github.com/afilatov/pyroscope/pkg/agent/upstream/direct"
+	"github.com/afilatov/pyroscope/pkg/config"
+	"github.com/afilatov/pyroscope/pkg/storage"
+	"github.com/afilatov/pyroscope/pkg/util/atexit"
 	"github.com/sirupsen/logrus"
 
 	"github.com/cheggaaa/pb/v3"

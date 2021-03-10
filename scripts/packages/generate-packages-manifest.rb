@@ -7,7 +7,7 @@ require 'yaml'
 auth_info = YAML.load(File.read(File.join(ENV["HOME"], "/.config/gh/hosts.yml")))
 
 github = Octokit::Client.new(:access_token => auth_info["github.com"]["oauth_token"])
-releases = github.releases('pyroscope-io/pyroscope').map do |release|
+releases = github.releases('afilatov/pyroscope').map do |release|
   release = release.to_h
   [release[:tag_name], release[:created_at]]
 end.to_h
