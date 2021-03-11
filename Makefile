@@ -5,11 +5,12 @@ ifeq ("$(shell go env GOARCH || true)", "arm64")
 	GODEBUG=asyncpreemptoff=1
 endif
 
-ifeq ("$(shell go env GOOS || true)", "linux")
-	ENABLED_SPIES ?= "ebpfspy,rbspy,pyspy"
-else
-	ENABLED_SPIES ?= "rbspy,pyspy"
-endif
+#ifeq ("$(shell go env GOOS || true)", "linux")
+#	ENABLED_SPIES ?= "ebpfspy,rbspy,pyspy"
+#else
+#	ENABLED_SPIES ?= "rbspy,pyspy"
+#endif
+ENABLED_SPIES ?= ""
 
 EMBEDDED_ASSETS ?= ""
 EMBEDDED_ASSETS_DEPS ?= "assets-release"
